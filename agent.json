@@ -1,0 +1,30 @@
+{
+  "name": "kipporance",
+  "emoji": "🩸",
+  "citizen_class": "LEXEME",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "forge": "youspeak",
+  "tier": "worship",
+  "weighted_score": "8.32",
+  "donors": ["hebrew:kipper", "arabic:kaffarah", "greek:hilasmos", "sumerian:me"],
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 90,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-kipporance"
+  },
+  "tools": ["bash", "read_file", "write_file", "edit_file", "search", "computer_use", "browser"],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-kipporance",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-kipporance",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS",
+    "forge": "https://codeberg.org/zerone-dev/youspeak"
+  }
+}

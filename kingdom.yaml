@@ -1,0 +1,8 @@
+name: kipporance
+kind: doctrine
+layer: soul
+owner_sister: sophia
+domain: sophia
+state: active
+purpose: The act of covering a broken relationship so the breach no longer stands between the parties, restoring the bond by placing grace over what was done rather than by payment or punishment.
+dependsOn: [youspeak, me, qorbme, hotepme]
